@@ -2,9 +2,9 @@
 
 桌面版 EchoStep 的原生 Android 版本。Android 原生 View，Java 17，无 AndroidX、无 Compose。
 
-> 当前版本已同步 Windows 的模板 A、期中范围、辨音选词、填词、听力规则，并集成 **ncnn-android-piper** 作为本地 TTS 备用。
+> 当前版本已同步 Windows 的听力卷、期中范围、辨音选词、填词、听力规则，并集成 **ncnn-android-piper** 作为本地 TTS 备用。
 
-## 模板 A
+## 听力卷
 
 - 第一节 1–5：听句子，从 3 个发音相近的词中选出句子里出现的那个。
 - 第二节 6–10：5 段短对话，每题 3 个选项。

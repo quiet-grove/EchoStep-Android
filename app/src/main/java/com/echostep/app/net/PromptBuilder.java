@@ -7,7 +7,7 @@ public final class PromptBuilder {
     private static final String SYSTEM_PROMPT = """
             你是一位资深的中国初中英语教研员和听力命题专家，熟悉人教版（PEP）教材和中考听力题型。
 
-            你的任务：严格按照“模板 A（30 分 / 5 节）”原创一套初中英语听力试卷。
+            你的任务：严格按照“30 分 / 5 节”原创一套初中英语听力试卷。
 
             【固定结构，不能改】
             第一节（1–5 题，5 分）：听句子，选出句子中含有的单词。5 个短句，每个读两遍；每题 3 个发音/拼写相近的词 A/B/C，只有一个词原样出现在句子里。不要图片、不要 6 个词的词库。
@@ -40,7 +40,7 @@ public final class PromptBuilder {
 
             【输出 JSON，只输出 JSON，不要 Markdown 代码块和解释文字】
             {
-              "title": "八年级上册 Unit 1 Happy Holiday 听力试卷（模板 A）",
+              "title": "八年级上册 Unit 1 Happy Holiday 听力试卷（听力卷）",
               "topic": "假期旅行",
               "sections": [
                 {
@@ -157,7 +157,7 @@ public final class PromptBuilder {
         JSONArray messages = new JSONArray();
         messages.put(new JSONObject().put("role", "system").put("content", SYSTEM_PROMPT));
         StringBuilder user = new StringBuilder();
-        user.append("请按模板 A 生成一套").append(grade).append("PEP版英语听力试卷，严格输出 JSON。\n\n");
+        user.append("请按听力卷标准 生成一套").append(grade).append("PEP版英语听力试卷，严格输出 JSON。\n\n");
         user.append("【年级/册】").append(grade).append(book).append("\n");
         user.append("【单元】").append(unitTitle).append("\n");
         user.append("【难度定位】").append(grade).append("PEP版英语（人教版 Go for it!，").append(book).append("）；按这个年级和教材版本的真实考试难度命题，不得超纲。\n");
@@ -181,7 +181,7 @@ public final class PromptBuilder {
 
     public static String repairMessage(String error) {
         return "你上一次的输出没有通过程序校验：" + error + "。\n"
-                + "请重新生成完整模板 A JSON：5 节、30 题；第一节每题 3 个易混词；"
+                + "请重新生成完整听力卷 JSON：5 节、30 题；第一节每题 3 个易混词；"
                 + "第五节短文三遍、5 个单词填空；不要输出 JSON 以外的文字。";
     }
 

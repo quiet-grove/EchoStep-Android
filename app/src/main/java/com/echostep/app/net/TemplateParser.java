@@ -16,7 +16,7 @@ import java.util.Locale;
 import java.util.Set;
 import java.util.regex.Pattern;
 
-/** Parser for the fixed Template A JSON (30 questions / 5 sections). */
+/** Parser for the fixed 30 Questions · 5 Sections JSON (30 questions / 5 sections). */
 final class TemplateParser {
     private static final Pattern CJK = Pattern.compile("[\\u3400-\\u9fff]");
     private static final Pattern OPTION_PREFIX = Pattern.compile("^\\s*[A-Ca-cＡ-Ｃ]\\s*[\\.\\)、:：]\\s*");
@@ -32,7 +32,7 @@ final class TemplateParser {
             JSONObject root = new JSONObject(extract(content));
             JSONArray rawSections = root.optJSONArray("sections");
             if (rawSections == null || rawSections.length() != 5) {
-                throw new IllegalArgumentException("模板 A 必须有 5 节");
+                throw new IllegalArgumentException("听力卷必须有 5 节");
             }
             ListeningTest test = new ListeningTest();
             test.template = "A";
@@ -41,7 +41,7 @@ final class TemplateParser {
             test.unitId = unitId;
             test.unitTitle = unitTitle;
             test.level = grade + book;
-            test.title = root.optString("title", grade + book + " " + unitTitle + " 听力试卷（模板 A）");
+            test.title = root.optString("title", grade + book + " " + unitTitle + " 听力试卷（听力卷）");
             test.topic = root.optString("topic", "");
             int number = 0;
             int words = 0;
@@ -142,7 +142,7 @@ final class TemplateParser {
                 }
                 test.sections.add(section);
             }
-            if (number != 30) throw new IllegalArgumentException("模板 A 必须是 30 题");
+            if (number != 30) throw new IllegalArgumentException("听力卷必须是 30 题");
             test.questionCount = 30;
             test.totalScore = 30;
             test.sectionCount = 5;

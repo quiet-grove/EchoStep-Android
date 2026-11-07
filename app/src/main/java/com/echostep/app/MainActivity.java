@@ -401,7 +401,7 @@ public class MainActivity extends Activity {
 
         card.addView(Ui.divider(this));
         card.addView(sectionHeader("02", "设置这场练习",
-                "模板 A 固定 30 题，听力只播一次", ""));
+                "固定 30 题，听力只播一次", ""));
         card.addView(countRow(), topParams(12));
         card.addView(speedRow(), topParams(13));
         card.addView(toggleRow("整套音频包含试音", "固定英文麦克风测试", config.soundcheck,
@@ -426,7 +426,7 @@ public class MainActivity extends Activity {
         generate.setOnClickListener(v -> generateTest(topic.getText().toString().trim()));
         actions.addView(generate, new LinearLayout.LayoutParams(0, dp(48), 1f));
         card.addView(actions, topParams(14));
-        TextView fine = Ui.text(this, "生成约需 10-40 秒 · 模板 A · 交卷后自动批改", 9.5f, Ui.MUTED_2, false);
+        TextView fine = Ui.text(this, "生成约需 10-40 秒 · 听力卷 · 交卷后自动批改", 9.5f, Ui.MUTED_2, false);
         fine.setGravity(Gravity.CENTER);
         card.addView(fine, topParams(9));
         return card;
@@ -526,7 +526,7 @@ public class MainActivity extends Activity {
         LinearLayout box = Ui.column(this);
         box.setPadding(dp(11), dp(10), dp(11), dp(10));
         box.setBackground(Ui.rounded(this, Ui.MINT_SOFT, 10, 0xFFD7E3CC, 1));
-        box.addView(Ui.text(this, "模板 A · 30 题 / 30 分 · 5 节", 11.5f, Ui.GREEN, true));
+        box.addView(Ui.text(this, "30 题 / 30 分 / 30 分 · 5 节", 11.5f, Ui.GREEN, true));
         box.addView(Ui.text(this, "1–5 辨音选词 · 6–10 短对话 · 11–20 长对话 · 21–25 短文 · 26–30 填词（听三遍）",
                 9.5f, Ui.MUTED, false));
         return box;
@@ -1543,7 +1543,7 @@ public class MainActivity extends Activity {
         panel.addView(modelHint);
 
         panel.addView(sectionTitle("音频与联网"));
-        TextView rule = Ui.text(this, "模板 A 只读中文节指令和英文材料，不朗读题干和选项。", 9, Ui.MUTED, false);
+        TextView rule = Ui.text(this, "听力卷 只读中文节指令和英文材料，不朗读题干和选项。", 9, Ui.MUTED, false);
         rule.setPadding(0, dp(4), 0, dp(4));
         panel.addView(rule);
         panel.addView(toggleRow("整套音频包含试音", "固定英文麦克风测试", config.soundcheck,
