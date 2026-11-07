@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="paper">#F3F0E8</color>
+    <color name="paper_card">#FFFDF8</color>
+    <color name="ink">#18251F</color>
+    <color name="green">#1E4D3B</color>
+    <color name="green_2">#2C6A52</color>
+    <color name="orange">#DF7539</color>
+    <color name="muted">#6E786F</color>
+    <color name="line">#E2DCCD</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

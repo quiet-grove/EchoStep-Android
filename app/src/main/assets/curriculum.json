@@ -1,0 +1,305 @@
+{
+  "grades": [
+    {
+      "id": "七年级",
+      "label": "七年级",
+      "short": "G7",
+      "tagline": "打基础 · 短对话 · 直接信息",
+      "books": [
+        "上册",
+        "下册"
+      ],
+      "scope": "七年级学生。七上以一般现在时、现在进行时、can、there be、名词单复数、人称代词、数词、时间与地点介词为主；七下开始学习一般过去时、祈使句、情态动词 would like 等。词汇量约 800，句子以简单句为主。听力材料应短小、语速自然偏慢，题目以“谁/何时/何地/做什么/为什么”等直接信息题为主，最多加入少量简单推断。不得使用现在完成时、定语从句、被动语态、虚拟语气等超纲语法。"
+    },
+    {
+      "id": "八年级",
+      "label": "八年级",
+      "short": "G8",
+      "tagline": "重运用 · 情景推断 · 单元语法",
+      "books": [
+        "上册",
+        "下册"
+      ],
+      "scope": "八年级学生。八上重点是一般将来时、比较级/最高级、情态动词、how often 等频率表达、条件状语从句（if）、可数/不可数名词；八下重点是过去进行时、现在完成时、反身代词、情态动词 could/should、动词不定式、宾语从句初步等。词汇量约 1600，可出现简单复合句和因果、转折关系。题目以细节理解、简单推断、场景判断、数字/时间计算为主。不得使用九年级才学的定语从句、较复杂的被动语态或高中词汇。"
+    },
+    {
+      "id": "九年级",
+      "label": "九年级",
+      "short": "G9",
+      "tagline": "中考标准 · 综合理解 · 观点态度",
+      "books": [
+        "全一册"
+      ],
+      "scope": "九年级学生，按中考听力标准命题。可综合七至九年级语法：宾语从句、定语从句、被动语态、现在完成时、过去完成时、used to、情态动词表推测、感叹句等。词汇量约 2000，材料可涉及文化、科技、环保、成长、人际交往等话题。题目应包含细节理解、推断、主旨、说话人意图/态度、数字计算等中考常见设问，但仍不得出现高中及以上词汇或过度专业的背景知识。"
+    }
+  ],
+  "books": {
+    "七年级上册": {
+      "grade": "七年级",
+      "book": "上册",
+      "units": [
+        {
+          "id": "7A-S1",
+          "title": "Starter Unit 1 Hello!"
+        },
+        {
+          "id": "7A-S2",
+          "title": "Starter Unit 2 Keep Tidy!"
+        },
+        {
+          "id": "7A-S3",
+          "title": "Starter Unit 3 Welcome!"
+        },
+        {
+          "id": "7A-U1",
+          "title": "Unit 1 You and Me"
+        },
+        {
+          "id": "7A-U2",
+          "title": "Unit 2 We’re Family!"
+        },
+        {
+          "id": "7A-U3",
+          "title": "Unit 3 My School"
+        },
+        {
+          "id": "7A-U4",
+          "title": "Unit 4 My Favourite Subject"
+        },
+        {
+          "id": "7A-U5",
+          "title": "Unit 5 Fun Clubs"
+        },
+        {
+          "id": "7A-U6",
+          "title": "Unit 6 A Day in the Life"
+        },
+        {
+          "id": "7A-U7",
+          "title": "Unit 7 Happy Birthday"
+        },
+        {
+          "id": "七年级上册-MID",
+          "title": "期中考试（Starter Units 1–3 + Unit 1–4）",
+          "note": "期中考试范围：只考本册前半部分 Starter Units 1–3 + Unit 1–4，不要考后半册。"
+        },
+        {
+          "id": "七年级上册-ALL",
+          "title": "综合复习（全册）"
+        }
+      ]
+    },
+    "七年级下册": {
+      "grade": "七年级",
+      "book": "下册",
+      "units": [
+        {
+          "id": "7B-U1",
+          "title": "Unit 1 Animal Friends"
+        },
+        {
+          "id": "7B-U2",
+          "title": "Unit 2 No Rules, No Order"
+        },
+        {
+          "id": "7B-U3",
+          "title": "Unit 3 Keep Fit"
+        },
+        {
+          "id": "7B-U4",
+          "title": "Unit 4 Eat Well"
+        },
+        {
+          "id": "7B-U5",
+          "title": "Unit 5 Here and Now"
+        },
+        {
+          "id": "7B-U6",
+          "title": "Unit 6 Rain or Shine"
+        },
+        {
+          "id": "7B-U7",
+          "title": "Unit 7 A Day to Remember"
+        },
+        {
+          "id": "7B-U8",
+          "title": "Unit 8 Once upon a Time"
+        },
+        {
+          "id": "七年级下册-MID",
+          "title": "期中考试（Unit 1–4）",
+          "note": "期中考试范围：只考本册前半部分 Unit 1–4，不要考后半册。"
+        },
+        {
+          "id": "七年级下册-ALL",
+          "title": "综合复习（全册）"
+        }
+      ]
+    },
+    "八年级上册": {
+      "grade": "八年级",
+      "book": "上册",
+      "units": [
+        {
+          "id": "8A-U1",
+          "title": "Unit 1 Happy Holiday"
+        },
+        {
+          "id": "8A-U2",
+          "title": "Unit 2 Home Sweet Home"
+        },
+        {
+          "id": "8A-U3",
+          "title": "Unit 3 Same or Different?"
+        },
+        {
+          "id": "8A-U4",
+          "title": "Unit 4 Amazing Plants and Animals"
+        },
+        {
+          "id": "8A-U5",
+          "title": "Unit 5 What a Delicious Meal!"
+        },
+        {
+          "id": "8A-U6",
+          "title": "Unit 6 Plan for Yourself"
+        },
+        {
+          "id": "8A-U7",
+          "title": "Unit 7 When Tomorrow Comes"
+        },
+        {
+          "id": "8A-U8",
+          "title": "Unit 8 Let’s Communicate!"
+        },
+        {
+          "id": "八年级上册-MID",
+          "title": "期中考试（Unit 1–4）",
+          "note": "期中考试范围：只考本册前半部分 Unit 1–4，不要考后半册。"
+        },
+        {
+          "id": "八年级上册-ALL",
+          "title": "综合复习（全册）"
+        }
+      ]
+    },
+    "八年级下册": {
+      "grade": "八年级",
+      "book": "下册",
+      "units": [
+        {
+          "id": "8B-U1",
+          "title": "Unit 1 Time to Relax"
+        },
+        {
+          "id": "8B-U2",
+          "title": "Unit 2 Stay Healthy"
+        },
+        {
+          "id": "8B-U3",
+          "title": "Unit 3 Growing Up"
+        },
+        {
+          "id": "8B-U4",
+          "title": "Unit 4 The Wonders of Nature"
+        },
+        {
+          "id": "8B-U5",
+          "title": "Unit 5 Nature’s Temper"
+        },
+        {
+          "id": "8B-U6",
+          "title": "Unit 6 Crossing Cultures"
+        },
+        {
+          "id": "8B-U7",
+          "title": "Unit 7 A Good Read"
+        },
+        {
+          "id": "8B-U8",
+          "title": "Unit 8 Making a Difference"
+        },
+        {
+          "id": "八年级下册-MID",
+          "title": "期中考试（Unit 1–4）",
+          "note": "期中考试范围：只考本册前半部分 Unit 1–4，不要考后半册。"
+        },
+        {
+          "id": "八年级下册-ALL",
+          "title": "综合复习（全册）"
+        }
+      ]
+    },
+    "九年级全一册": {
+      "grade": "九年级",
+      "book": "全一册",
+      "units": [
+        {
+          "id": "9-U1",
+          "title": "Unit 1 How can we become good learners?"
+        },
+        {
+          "id": "9-U2",
+          "title": "Unit 2 I think that mooncakes are delicious!"
+        },
+        {
+          "id": "9-U3",
+          "title": "Unit 3 Could you please tell me where the restrooms are?"
+        },
+        {
+          "id": "9-U4",
+          "title": "Unit 4 I used to be afraid of the dark."
+        },
+        {
+          "id": "9-U5",
+          "title": "Unit 5 What are the shirts made of?"
+        },
+        {
+          "id": "9-U6",
+          "title": "Unit 6 When was it invented?"
+        },
+        {
+          "id": "9-U7",
+          "title": "Unit 7 Teenagers should be allowed to choose their own clothes."
+        },
+        {
+          "id": "9-U8",
+          "title": "Unit 8 It must belong to Carla."
+        },
+        {
+          "id": "9-U9",
+          "title": "Unit 9 I like music that I can dance to."
+        },
+        {
+          "id": "9-U10",
+          "title": "Unit 10 You're supposed to shake hands."
+        },
+        {
+          "id": "9-U11",
+          "title": "Unit 11 Sad movies make me cry."
+        },
+        {
+          "id": "9-U12",
+          "title": "Unit 12 Life is full of the unexpected."
+        },
+        {
+          "id": "9-U13",
+          "title": "Unit 13 We're trying to save the earth!"
+        },
+        {
+          "id": "9-U14",
+          "title": "Unit 14 I remember meeting all of you in Grade 7."
+        },
+        {
+          "id": "九年级全一册-MID",
+          "title": "期中考试（Unit 1–7）",
+          "note": "期中考试范围：只考本册前半部分 Unit 1–7，不要考后半册。"
+        },
+        {
+          "id": "九年级全一册-ALL",
+          "title": "综合复习（全册）"
+        }
+      ]
+    }
+  }
+}
